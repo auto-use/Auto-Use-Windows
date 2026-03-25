@@ -44,3 +44,13 @@ Delete the hello_mcp.py file.
 Report back with the output you captured."
 
 autouse: fail
+
+task 4 
+
+Create a file named data.csv with 3 columns (Name, Age, Role) and 3 rows of dummy data.
+Read the CSV file.
+Convert that data into a JSON array of objects.
+Save the JSON array to a new file named data.json.
+Delete the original data.csv file.
+
+autouse:  pass
