@@ -27,3 +27,8 @@ view	View file contents with line numbers
 write	Insert content into a file
 replace	Replace content at a specific line
 
+Task1 : "
+Open Notepad2. Type the following: MCP Test Case 1 This is a multi-step automation test3. Save the file on Desktop as mcp_test_1.txt4. Close Notepad5. Re-open the file to verify contentsTell me the result of each step.
+"
+autouse: pass
+
