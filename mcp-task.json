@@ -47,3 +47,18 @@ Task:
 ...
 
 pass
+
+
+Search for "laptop under 70000 INR".
+Task:
+1. Open a shopping website
+2. Identify 3 good options
+3. Extract:
+   - Name
+   - Price
+   - Rating (if visible)
+Save results in https://onlinenotepad.org/notepad
+
+pass
+
+
