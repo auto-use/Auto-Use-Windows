@@ -152,7 +152,11 @@
         {
           "name": "autuse agent",
           "status": "pass"
-        },
+        },              {
+        "name": "openclaw",
+        "status": "fail"
+      }
+        
             "task 10": {
       "content": "Task: How many 3 in strawberry"
       "agents": [
