@@ -131,7 +131,7 @@
     "task_17": {
       "content": "Using Brave, search for a free PDF ebook. Download it and confirm: File name, File size, Download location. Then open the file.",
       "agents": [
-        { "name": "window-use", "status": "pending" },
+        { "name": "window-use", "status": "fail" },
         { "name": "autuse agent", "status": "pending" },
         { "name": "openclaw", "status": "fail" }
       ]
