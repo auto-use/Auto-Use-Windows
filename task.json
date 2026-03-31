@@ -1,149 +1,69 @@
 {
-  "task 1": {
-    "content": "Task: Create Population Table in Google Sheets (GUI Interaction Only)\n\nYour task is to use Google Sheets to create a structured table.\nYou must strictly use GUI interaction only (mouse clicks and keyboard input).\nDo not use APIs, scripts, automation tools, browser console, extensions, or external tools.\nDo not open or navigate to any unrelated website.\n\nTable Structure\n\nCreate exactly four columns with the following column names (spelled exactly as written):\n\nYear\nMen (Millions)\nWomen (Millions)\nTotal (Millions)\n\nEnter the Following Data\n\n1995 – Men: 28.5, Women: 29.1, Total: 57.6\n1996 – Men: 28.7, Women: 29.3, Total: 58.0\n1997 – Men: 28.9, Women: 29.5, Total: 58.4\n1998 – Men: 29.1, Women: 29.7, Total: 58.8\n1999 – Men: 29.3, Women: 29.9, Total: 59.2\n2000 – Men: 29.5, Women: 30.1, Total: 59.6\n2001 – Men: 29.8, Women: 30.3, Total: 60.1\n2002 – Men: 30.0, Women: 30.5, Total: 60.5\n2003 – Men: 30.3, Women: 30.8, Total: 61.1\n2004 – Men: 30.6, Women: 31.1, Total: 61.7\n2005 – Men: 30.9, Women: 31.4, Total: 62.3\n2006 – Men: 31.2, Women: 31.7, Total: 62.9\n2007 – Men: 31.5, Women: 32.0, Total: 63.5\n2008 – Men: 31.8, Women: 32.3, Total: 64.1\n2009 – Men: 32.1, Women: 32.6, Total: 64.7\n2010 – Men: 32.4, Women: 32.9, Total: 65.3\n2011 – Men: 32.8, Women: 33.3, Total: 66.1\n2012 – Men: 33.1, Women: 33.6, Total: 66.7\n2013 – Men: 33.4, Women: 33.9, Total: 67.3\n2014 – Men: 33.7, Women: 34.2, Total: 67.9\n2015 – Men: 34.0, Women: 34.5, Total: 68.5\n2016 – Men: 34.3, Women: 34.8, Total: 69.1\n2017 – Men: 34.6, Women: 35.1, Total: 69.7\n2018 – Men: 34.9, Women: 35.4, Total: 70.3\n2019 – Men: 35.2, Women: 35.7, Total: 70.9\n2020 – Men: 35.5, Women: 36.0, Total: 71.5\n2021 – Men: 35.8, Women: 36.3, Total: 72.1\n2022 – Men: 36.1, Women: 36.6, Total: 72.7\n2023 – Men: 36.4, Women: 36.9, Total: 73.3\n2024 – Men: 36.7, Women: 37.2, Total: 73.9\n\nRequirements\n\nColumn names must match exactly.\n\nAll 30 rows from 1995 to 2024 must be present.\n\nTotals must be entered correctly.\n\nDo not modify column names.\n\nDo not skip any year.\n\nUse only visible GUI actions inside Google Sheets.",
-    "agents": [
-      {
-        "name": "window-use",
-        "status": "pass"
-      },
-      {
-        "name": "autuse agent",
-        "status": "pass"
-      },
-           {
-        "name": "openclaw",
-        "status": "fail"
-      }
-    ]
-  },
-  "task 2": {
-    "content": "Your task is to use Gmail and Google Calendar to perform a sequence of actions strictly within a single browser tab. You must not open any new tabs or windows at any point during the task. First, open Gmail and from there navigate to Google Calendar without creating a new tab. Block your calendar for the entire day on 31 March 2026 by creating an all-day event and saving it. After successfully saving the event, return to Gmail in the same tab and compose an email to yourself with the subject line \"Calendar Blocked – 31 March 2026\" and a message stating that the calendar has been successfully blocked for the full day on 31 March 2026. Send the email. Then, still using the same browser tab, navigate back to Google Calendar, locate the all-day event created for 31 March 2026, and delete it. Confirm that the event has been completely removed before ending the task. Under no circumstances should you open a new tab, use background tabs, or switch to a separate window.",
-    "agents": [
-      {
-        "name": "window-use",
-        "status": "fail"
-      },
-      {
-        "name": "autuse agent",
-        "status": "pass"
-      },
-         {
-        "name": "openclaw",
-        "status": "fail"
-      }
-    ]
-  },
-  "task 3": {
-    "content": "Use Microsoft Edge to open the Asda.co.uk website. Click on the sign-in button, sign in. The email and password will be autofilled — click sign in. After signing in, search for 'tomato' and add the cheapest regular, no can tomato to the basket. Then search for and add avocado, then bread, then egg. After adding all items, check the total price. Then navigate to an online notepad and enter the exact name of the tomato that was selected, the exact name of the avocado that was selected, the exact name of the bread that was selected, the exact name of the egg that was selected, and the price of each item.",
-    "agents": [
-      {
-        "name": "window-use",
-        "status": "fail"
-      },
-      {
-        "name": "autuse agent",
-        "status": "pass"
-      }
-      ,
-         {
-        "name": "openclaw",
-        "status": "fail"
-      }
-    ]
-  },
-  "task 4": {
-    "content": "Use Microsoft Edge. Open Skyscanner.co.uk and search for a one-way flight from Mumbai to New York on 15 April 2026 for 1 passenger — select the cheapest direct flight. Then search for a one-way flight from New York to Tokyo on 20 April 2026 for 1 passenger — select the cheapest direct flight. Then search for a return flight from Manchester to Dubai, departing 1 May 2026 and returning 8 May 2026, for 1 passenger. After completing all three searches, open an online notepad and write a short poem about flying. Then go back to Skyscanner and retrieve the full details of the first flight searched — including airline name, departure time, arrival time, duration, and price. Return to the online notepad and enter the complete details of that flight.",
-    "agents": [
-      {
-        "name": "window-use",
-        "status": "fail"
-      },
-      {
-        "name": "autuse agent",
-        "status": "pass"
-      }
-        ,
-         {
-        "name": "openclaw",
-        "status": "fail"
-      }
-    ]
-  },
-  "task 5": {
-    "content": "Use Microsoft Edge. Open https://onlinenotepad.org/notepad and type the following poem exactly as written, including all spelling errors:\n\nMornning Light\n\nWhen mornning light beggins to rise,\nIt paints soft colors in the skyes.\nThe air is cool, the world half-wake,\nAs golden streems the darknes break.\n\nA quitet hush on fields of grean,\nWith dewdrops shinning, fresh and clean.\nThe sparows call from branch to tree,\nTheir songs drift slow and wild and free.\n\nFor even when the skys seem gray,\nThe light will find its brite new way.\n\nAfter typing the entire poem, go back to the very beginning and correct the spelling of each misspelled word one by one, working through the entire poem from start to finish.",
-    "agents": [
-      {
-        "name": "window-use",
-        "status": "fail"
-      },
-      {
-        "name": "autuse agent",
-        "status": "pass"
-      }
-        ,
-         {
-        "name": "openclaw",
-        "status": "pass"
-      }
-    ]
-  },
-  // remove task 6 broken
-  "task 6": {
-    "content": "Use Microsoft Edge. Navigate to https://www.kaggle.com/datasets/whenamancodes/student-performance/code and download the dataset as a zip file. Extract the zip file and then open Google Colab. Upload the extracted dataset directly into Colab — no terminal usage is allowed. Explore the dataset at a high level to understand its structure and key features. After understanding the dataset, write a simple machine learning model using Random Forest to predict the marks of the student.",
-    "agents": [
-      {
-        "name": "window-use",
-        "status": "fail"
-      },
-      {
-        "name": "autuse agent",
-        "status": "fail"
-      }
-              ,
-         {
-        "name": "openclaw",
-        "status": "fail"
-      }
-    ]
-  },
-  {
-    "task 7": {
-      "content": "Task: Ambiguous Selection on OpenStreetMap (GUI Interaction Only)\n\nUse Microsoft Edge.\nYou must strictly use GUI interaction only (mouse clicks and keyboard input).\nDo not use APIs, scripts, automation tools, browser console, extensions, or external tools.\n\nGoal\nCreate a walking route between two places that share similar names, and correctly pick the intended ones.\n\nSteps\n1) Navigate to https://www.openstreetmap.org\n2) Use the search box to search for: \"Victoria Station\"\n3) From the results, choose the one that is clearly in London, UK (not anywhere else).\n4) Now open the Directions feature on OpenStreetMap.\n5) Set the START point to: \"Victoria Station\" (the London one).\n6) Set the END point by searching for: \"Buckingham Palace\"\n7) Ensure the END selected is the famous Buckingham Palace in London.\n8) Set the route mode to Walking.\n9) Once the walking route is shown, capture the following details (as they appear in the UI):\n   - Total distance\n   - Estimated walking time\n   - The first instruction step (exact text)\n   - The last instruction step (exact text)\n10) Open https://onlinenotepad.org/notepad (new tab is allowed for this task).\n11) Paste the details in this exact template:\n   START: <place name as shown>\n   END: <place name as shown>\n   DISTANCE: <value>\n   TIME: <value>\n   FIRST STEP: <value>\n   LAST STEP: <value>\n\nHard Mode Requirements\n- The words “Victoria Station” are ambiguous; you must pick London, UK.\n- Do not use any map APIs; only the visible website UI.\n- If OpenStreetMap asks for location permissions, deny them and continue manually.",
-      "agents": [
-          {
-            "name": "window-use",
-            "status": "fail"
-          },
-          {
-            "name": "autuse agent",
-            "status": "pass"
-          },
-        
-         {
-        "name": "openclaw",
-        "status": "pass"
-      }
-      ]
-    },
-    "task 8": {
-      "content": "Task: Vague Instruction + Precise Outcome in a Web Editor (GUI Interaction Only)\n\nUse Microsoft Edge.\nYou must strictly use GUI interaction only (mouse clicks and keyboard input).\nDo not use APIs, scripts, automation tools, browser console, extensions, or external tools.\n\nGoal\nFollow a vague instruction (“choose the red apple”) inside a webpage you must edit, then prove you did it correctly.\n\nSteps\n1) Navigate to: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic\n2) The page contains an editor on the left and an output preview on the right (inside an iframe).\n3) In the editor, replace the existing HTML with the following EXACT HTML (paste it carefully):\n\n<!DOCTYPE html>\n<html>\n<body>\n  <h2>Pick the red apple</h2>\n  <p>Only one option is the red apple. Click it.</p>\n\n  <button id=\"a1\" style=\"background:#00b050; color:white; padding:12px; border:0; border-radius:8px;\">Green Apple</button>\n  <button id=\"a2\" style=\"background:#c00000; color:white; padding:12px; border:0; border-radius:8px;\">Red Apple</button>\n  <button id=\"a3\" style=\"background:#ffd966; color:black; padding:12px; border:0; border-radius:8px;\">Yellow Apple</button>\n\n  <p id=\"result\" style=\"margin-top:16px; font-weight:bold;\"></p>\n\n  <script>\n    function pick(label){\n      document.getElementById('result').textContent = 'You picked: ' + label;\n    }\n    document.getElementById('a1').onclick = () => pick('Green Apple');\n    document.getElementById('a2').onclick = () => pick('Red Apple');\n    document.getElementById('a3').onclick = () => pick('Yellow Apple');\n  </script>\n</body>\n</html>\n\n4) Click the Run button.\n5) In the output preview, complete the instruction: choose the red apple.\n6) Verify that the page displays exactly: \"You picked: Red Apple\"\n7) Open https://onlinenotepad.org/notepad (new tab allowed).\n8) Type exactly two lines:\n   CONFIRMATION TEXT: You picked: Red Apple\n   WHAT YOU CLICKED: Red Apple\n\nHard Mode Requirements\n- You must click inside the output preview (not the editor).\n- If the output appears zoomed or the click doesn’t register, adjust only using visible UI controls (no devtools).",
-      "agents": [
-          {
-            "name": "window-use",
-            "status": "pass"
-          },
-          {
-            "name": "autuse agent",
-            "status": "pass"
-          }
-              {
-        "name": "openclaw",
-        "status": "pass"
-      }
-      ]
-    },
-{
   "tasks": {
+    "task_1": {
+      "content": "Task: Create Population Table in Google Sheets (GUI Interaction Only)\n\nYour task is to use Google Sheets to create a structured table.\nYou must strictly use GUI interaction only (mouse clicks and keyboard input).\nDo not use APIs, scripts, automation tools, browser console, extensions, or external tools.\nDo not open or navigate to any unrelated website.\n\nTable Structure\n\nCreate exactly four columns with the following column names (spelled exactly as written):\n\nYear\nMen (Millions)\nWomen (Millions)\nTotal (Millions)\n\nEnter the Following Data\n\n1995 – Men: 28.5, Women: 29.1, Total: 57.6\n...\n2024 – Men: 36.7, Women: 37.2, Total: 73.9\n\nRequirements\n\nColumn names must match exactly.\nAll 30 rows from 1995 to 2024 must be present.\nTotals must be entered correctly.\nDo not modify column names.\nDo not skip any year.\nUse only visible GUI actions inside Google Sheets.",
+      "agents": [
+        { "name": "window-use", "status": "pass" },
+        { "name": "autuse agent", "status": "pass" },
+        { "name": "openclaw", "status": "fail" }
+      ]
+    },
+    "task_2": {
+      "content": "Your task is to use Gmail and Google Calendar to perform a sequence of actions strictly within a single browser tab. You must not open any new tabs or windows at any point during the task. First, open Gmail and from there navigate to Google Calendar without creating a new tab. Block your calendar for the entire day on 31 March 2026 by creating an all-day event and saving it. After successfully saving the event, return to Gmail in the same tab and compose an email to yourself with the subject line \"Calendar Blocked – 31 March 2026\" and a message stating that the calendar has been successfully blocked for the full day on 31 March 2026. Send the email. Then, still using the same browser tab, navigate back to Google Calendar, locate the all-day event created for 31 March 2026, and delete it. Confirm that the event has been completely removed before ending the task.",
+      "agents": [
+        { "name": "window-use", "status": "fail" },
+        { "name": "autuse agent", "status": "pass" },
+        { "name": "openclaw", "status": "fail" }
+      ]
+    },
+    "task_3": {
+      "content": "Use Microsoft Edge to open the Asda.co.uk website. Click on the sign-in button, sign in. The email and password will be autofilled — click sign in. After signing in, search for 'tomato' and add the cheapest regular, no can tomato to the basket. Then search for and add avocado, then bread, then egg. After adding all items, check the total price. Then navigate to an online notepad and enter the exact name of the tomato that was selected, the exact name of the avocado that was selected, the exact name of the bread that was selected, the exact name of the egg that was selected, and the price of each item.",
+      "agents": [
+        { "name": "window-use", "status": "fail" },
+        { "name": "autuse agent", "status": "pass" },
+        { "name": "openclaw", "status": "fail" }
+      ]
+    },
+    "task_4": {
+      "content": "Use Microsoft Edge. Open Skyscanner.co.uk and search for a one-way flight from Mumbai to New York on 15 April 2026 for 1 passenger — select the cheapest direct flight. Then search for a one-way flight from New York to Tokyo on 20 April 2026 for 1 passenger — select the cheapest direct flight. Then search for a return flight from Manchester to Dubai, departing 1 May 2026 and returning 8 May 2026, for 1 passenger. After completing all three searches, open an online notepad and write a short poem about flying. Then go back to Skyscanner and retrieve the full details of the first flight searched — including airline name, departure time, arrival time, duration, and price. Return to the online notepad and enter the complete details of that flight.",
+      "agents": [
+        { "name": "window-use", "status": "fail" },
+        { "name": "autuse agent", "status": "pass" },
+        { "name": "openclaw", "status": "fail" }
+      ]
+    },
+    "task_5": {
+      "content": "Use Microsoft Edge. Open https://onlinenotepad.org/notepad and type the following poem exactly as written, including all spelling errors... After typing the entire poem, go back to the very beginning and correct the spelling of each misspelled word one by one, working through the entire poem from start to finish.",
+      "agents": [
+        { "name": "window-use", "status": "fail" },
+        { "name": "autuse agent", "status": "pass" },
+        { "name": "openclaw", "status": "pass" }
+      ]
+    },
+    "task_6": {
+      "content": "Use Microsoft Edge. Navigate to https://www.kaggle.com/datasets/whenamancodes/student-performance/code and download the dataset as a zip file. Extract the zip file and then open Google Colab. Upload the extracted dataset directly into Colab — no terminal usage is allowed. Explore the dataset at a high level to understand its structure and key features. After understanding the dataset, write a simple machine learning model using Random Forest to predict the marks of the student.",
+      "agents": [
+        { "name": "window-use", "status": "fail" },
+        { "name": "autuse agent", "status": "fail" },
+        { "name": "openclaw", "status": "fail" }
+      ]
+    },
+    "task_7": {
+      "content": "Task: Ambiguous Selection on OpenStreetMap (GUI Interaction Only)\n\nSteps\n1) Navigate to https://www.openstreetmap.org\n2) Use the search box to search for: \"Victoria Station\"\n3) From the results, choose the one that is clearly in London, UK (not anywhere else).\n...\n9) Once the walking route is shown, capture the following details: Total distance, Estimated walking time, The first instruction step, The last instruction step.\n10) Open https://onlinenotepad.org/notepad.\n11) Paste the details in the exact template provided.",
+      "agents": [
+        { "name": "window-use", "status": "fail" },
+        { "name": "autuse agent", "status": "pass" },
+        { "name": "openclaw", "status": "pass" }
+      ]
+    },
+    "task_8": {
+      "content": "Task: Vague Instruction + Precise Outcome in a Web Editor (GUI Interaction Only)\n\nSteps\n1) Navigate to: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic\n2) Replace existing HTML with provided code.\n4) Click the Run button.\n5) In the output preview, choose the red apple.\n6) Verify that the page displays exactly: \"You picked: Red Apple\"\n7) Open onlinenotepad.org and type confirmation text.",
+      "agents": [
+        { "name": "window-use", "status": "pass" },
+        { "name": "autuse agent", "status": "pass" },
+        { "name": "openclaw", "status": "pass" }
+      ]
+    },
     "task_9": {
       "content": "Task: Cloudflare/Anti-bot Friction + Fallback Completion (GUI Interaction Only)\n\nUse Microsoft Edge.\nYou must strictly use GUI interaction only (mouse clicks and keyboard input).\nDo not use APIs, scripts, automation tools, browser console, extensions, or external tools.\n\nPrimary Attempt (anti-bot likely)\n1) Navigate to: https://www.allrecipes.com/\n2) Use the site search to search for: \"banana bread\"\n3) Open one recipe result.\n4) On the recipe page, find and record:\n   - Recipe title (exact)\n   - Rating (exact as shown)\n   - Total time (exact label/value)\n   - Number of servings (exact label/value)\n\nIf you encounter any anti-bot / verification step\n- Do NOT attempt to bypass it with tools, scripts, refresh-spam, or unusual behavior.\n- You may complete any checkbox or prompt that is solvable via normal human GUI interaction.\n- If you cannot proceed to the recipe page due to a block, immediately switch to the fallback site below.\n\nFallback (must complete if primary is blocked)\nA) Go to: https://www.bbcgoodfood.com/\nB) Search for: \"banana bread\"\nC) Open one recipe result.\nD) Record:\n   - Recipe title (exact)\n   - Rating (exact as shown, if displayed; if not displayed, write \"Rating: Not shown\")\n   - Total time (exact label/value)\n   - Serves (exact label/value)\n\nFinal Output\n5) Open https://onlinenotepad.org/notepad\n6) Write your findings using this exact format:\n   SOURCE: <Allrecipes or BBC Good Food>\n   TITLE: <exact>\n   RATING: <exact or Not shown>\n   TOTAL TIME: <exact>\n   SERVES: <exact>\n\nHard Mode Requirements\n- Must use the website’s search (not a search engine).\n- Do not open unrelated sites.\n- If you used the fallback, you must clearly mark SOURCE as BBC Good Food.",
       "agents": [
