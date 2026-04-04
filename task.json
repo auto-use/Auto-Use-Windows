@@ -140,7 +140,7 @@
       "content": "Use Firefox to research “Open-source alternatives to ChatGPT”. Compare at least 5 tools across: Model type, Hosting (local/cloud), License. Then recommend the best option for a developer with low budget and explain why.",
       "agents": [
         { "name": "window-use", "status": "pass" },
-        { "name": "autuse agent", "status": "pending" },
+        { "name": "autuse agent", "status": "pass" },
         { "name": "openclaw", "status": "fail" }
       ]
     },
