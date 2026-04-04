@@ -242,7 +242,7 @@
 "task_30": {
       "content": "i have openclaw installed in my system start openclaw , open dashboard and start gateway",
       "agents": [
-        { "name": "window-use", "status": "pending" },
+        { "name": "window-use", "status": "fail" },
         { "name": "autuse agent", "status": "pass" },
         { "name": "openclaw", "status": "pending" }
       ]
