@@ -412,7 +412,7 @@
 "task_49": {
       "content": "Can you enable the 'Do Not Track' feature in Chrome to enhance my online privacy?",
       "agents": [
-        { "name": "window-use", "status": "pending" },
+        { "name": "window-use", "status": "pass" },
         { "name": "autuse agent", "status": "pass" },
         { "name": "openclaw", "status": "pending" }
       ]
