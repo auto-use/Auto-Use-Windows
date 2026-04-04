@@ -368,7 +368,7 @@
 "task_44": {
       "content": "Generate an image of a friendly robot sitting in a cozy coffee shop, reading a book. Save it as \"robot_cafe.png\" in the current directory.",
       "agents": [
-        { "name": "window-use", "status": "pending" },
+        { "name": "window-use", "status": "pass" },
         { "name": "autuse agent", "status": "pass" },
         { "name": "openclaw", "status": "pending" }
       ]
