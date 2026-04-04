@@ -190,7 +190,7 @@
 "task_24": {
       "content": "Write a 500-word blog post about the benefits of remote work for software developers. Save it to blog_post.md.",
       "agents": [
-        { "name": "window-use", "status": "pending" },
+        { "name": "window-use", "status": "pass" },
         { "name": "autuse agent", "status": "pass" },
         { "name": "openclaw", "status": "pending" }
       ]
