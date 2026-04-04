@@ -182,7 +182,7 @@
 "task_23": {
       "content": "Research the current stock price of Apple (AAPL) , NVDA , GOOGL , TSLA ,  MSFT  and save it to stock_report.txt with the price, date, and a brief market summary.",
       "agents": [
-        { "name": "window-use", "status": "pending" },
+        { "name": "window-use", "status": "fail" },
         { "name": "autuse agent", "status": "pass" },
         { "name": "openclaw", "status": "pending" }
       ]
