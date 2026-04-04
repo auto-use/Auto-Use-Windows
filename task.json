@@ -198,7 +198,7 @@
 "task_25": {
       "content": "Create a Python script called weather.py that fetches weather data for San Francisco using the wttr.in API and prints a summary.",
       "agents": [
-        { "name": "window-use", "status": "pending" },
+        { "name": "window-use", "status": "fail" },
         { "name": "autuse agent", "status": "pass" },
         { "name": "openclaw", "status": "pending" }
       ]
