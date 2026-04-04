@@ -395,7 +395,7 @@
 "task_47": {
       "content": "Write a professional email declining a meeting request due to schedule conflicts. Save it to email_draft.txt.",
       "agents": [
-        { "name": "window-use", "status": "pending" },
+        { "name": "window-use", "status": "pass" },
         { "name": "autuse agent", "status": "pass" },
         { "name": "openclaw", "status": "pending" }
       ]
