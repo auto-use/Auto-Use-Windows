@@ -124,7 +124,7 @@
       "content": "Open Brave browser. Navigate to settings and enable: Block third-party cookies, Enable aggressive tracker blocking. Then visit a news website and confirm if trackers are blocked. Provide evidence (what changed / indicators).",
       "agents": [
         { "name": "window-use", "status": "fail" },
-        { "name": "autuse agent", "status": "pending" },
+        { "name": "autuse agent", "status": "pass" },
         { "name": "openclaw", "status": "fail" }
       ]
     },
