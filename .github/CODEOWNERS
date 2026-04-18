@@ -1,0 +1,9 @@
+# Code Owners for Auto-Use-Windows
+# These users are automatically requested for review on all pull requests
+
+* @auto-use @FunctionFreak
+.github/ @auto-use @FunctionFreak
+.github/CODEOWNERS @auto-use @FunctionFreak
+.github/workflows/ @auto-use @FunctionFreak
+.githooks/ @auto-use @FunctionFreak
+LICENSE @auto-use @FunctionFreak
